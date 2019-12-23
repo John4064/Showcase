@@ -14,35 +14,43 @@ public:
 	std::string color;
 	std::string birthday;
 	//METHODS
+	//Sets the name
 	void setName() {
 		std::cout << "Enter the Name\n";
 		std::getline(std::cin, name);
 		return;
 	}
+	//Sets The Age
 	void setAge() {
 		std::cout << "Enter Age\n";
 		std::cin >> age;
 		return;
 	}
+	//sets the color
 	void setColor() {
 		std::cout << "Enter the color\n";
 		std::cin >> color;
 		return;
 	}
+	//sets the birthday
 	void setBirthday() {
 		std::cout << "Enter the Birthday Month\n";
 		std::cin >> birthday;
 		return;
 	}
+	//returns the name
 	std::string getName() {
 		return name;
 	}
+	//returns the age
 	int getAge() {
 		return age;
 	}
+	//returns the color
 	std::string getColor() {
 		return color;
 	}
+	//returns the birthday
 	std::string getBirthday() {
 		return birthday;
 	}
